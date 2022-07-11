@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    font-family: "Rubik";
+    background-color: #d1d1d1;
+    color: #444444;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 10vh;
+    display: flex;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side{
+    flex: 50%;
+    padding-left: 100px;
+}
+
+nav .right-side{
+    flex: 50%;
+    padding-right: 100px;
+    justify-content: end;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    color: #444444;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav ul li a.active{
+    color: #444444;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    color: #f3f3f3;
+    background-color: #444444;
+
+}
+
+nav .right-side a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #444444;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #444444;
+}
+
+nav .right-side a:hover{
+    color: #444444;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+} 
+
+/* data */
+
+.personal{
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-content{
+    flex-direction: row;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #b6b6b6;
+}
+
+.container-content .left{
+    flex: 70%;
+}
+
+.container-content .right{
+    flex: 30%;
+}
+
+
+
+.data{
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px 20px 20px 50px;
+    font-size: 18px;
+    color: #292929;
+}
+
+.contact{
+    font-family: Rubik;
+    background-color: #444444;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+    cursor: pointer; 
+    border: 1px solid #ffffff;
+}
+
+.contact a{
+    border: 0px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.contact:hover{
+    color: #444444;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+}
+
+.contact a:hover{
+    color: #444444;
+}
+
+.download{
+    border: 0px;
+    font-weight: 500;
+    font-family: Rubik;
+    padding: 15px 0px 20px 0px;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding-left: 30px;   
+    color: #444444; 
+}
+
+.icon{
+    margin-top: 40px;
+}
+
+.icon img{
+    height: 40px;
+    padding: 5px;
+    margin-right: 25px;
+    background-color: #444444;
+    border-radius: 100%;
+}
+
+.icon img:hover{
+    background-color: aqua;
+}
+
+.profil{
+    width: 300px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px #afafaf;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffffff;    
+}
+
+.profil h1{
+    margin: 10px 0px 1px 0px;
+}
+
+.profil p{
+    margin-top: 1px; 
+    padding-bottom: 10px;
+}

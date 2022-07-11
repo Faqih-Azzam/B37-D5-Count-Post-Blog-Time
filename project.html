@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/project.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left-side">
+        <a href="index.html">
+            <img src="assets/images/logo.png" style="width: 80px;">
+        </a>
+        <ul>
+            <li>
+            <a href="index.html">Home </a>
+            </li>
+            <li>
+            <a class="active" href="project.html">My Project </a>
+            </li>
+        </ul>
+        </div>
+    
+        <div class="right-side">
+        <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- form -->
+
+    <div class="project">
+        <form onsubmit="addPro(event)">
+            <h1>ADD MY PROJECT</h1>
+            <div class="pj">
+                <div class="name">
+                    <label for="nama">Project Name</label>
+                    <input id="nama" type="text">
+                </div>
+                <div class="date">
+                    <div class="kiri">
+                        <label for="start">Start Date</label>
+                        <input id="start" type="date">
+                    </div>
+                    <div class="kanan">
+                        <label for="end">End Date</label>
+                        <input id="end" type="date">
+                    </div>
+                </div>
+                </div>
+            <div class="description">
+                <label for="desc">Description</label>
+                <textarea name="" id="desc" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label>Technology</label><br>
+                <div class="checkbox">
+                    <div class="kiri-cek">
+                        <input type="checkbox" id="html" name="html" value="html">
+                        <label for="html">HTML</label><br>
+                        <input type="checkbox" id="js" name="js" value="js">
+                        <label for="js" ">JavaScript</label>   
+                    </div>
+                    <div class="kanan-cek">
+                        <input type="checkbox" id="css" name="css" value="css">
+                        <label for="css">CSS</label><br>
+                        <input type="checkbox" id="node" name="node" value="node">
+                        <label for="node">Node Js</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label for="file">Upload Image</label>
+                <div class="input">
+                    <label for="file" class="file">File</label>
+                    <input type="file" id="file" hidden>
+                </div>
+            </div>
+            <div class="upload">
+                <button>Post</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- content -->
+    <div id="content-post">
+        <h1 class="head">My Project</h1>
+        <hr>
+        
+        <div id="project-post" class="project-post">
+            <!-- <a href="detail-project.html">
+            <div class="head-post">
+                <div class="post">
+                    <img class="gmbr" src="assets/images/logo.png" alt="">
+                    <h2>Project 1</h2>
+                    <p class="duration">duration : </p>
+                    <div class="description"><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
+                    <div id="icon" class="icon">            
+                        <i class="fa-brands fa-html5 fa-2x"></i>
+                        <i class="fa-brands fa-css3-alt fa-2x"></i>
+                        <i class="fa-brands fa-js fa-2x"></i>
+                        <i class="fa-brands fa-node fa-2x"></i>
+                    </div>
+                    <div class="upload">
+                        <button type="button" class="edit">edit</button>
+                        <button type="button" class="delete">delete</button>
+                    </div>
+                </div>
+            </div>
+            </a> -->
+        </div>
+    </div>
+    <script src="assets/js/project.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    font-family: "Rubik";
+    background-color: #d1d1d1;
+    color: #444444;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 10vh;
+    display: flex;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side{
+    flex: 50%;
+    padding-left: 100px;
+}
+
+nav .right-side{
+    flex: 50%;
+    padding-right: 100px;
+    justify-content: end;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    color: #444444;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav ul li a.active{
+    color: #444444;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    color: #f3f3f3;
+    background-color: #444444;
+
+}
+
+nav .right-side a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #444444;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #444444;
+}
+
+nav .right-side a:hover{
+    color: #444444;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+} 
+
+/* form */
+
+.project{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: rubik; 
+    color: #444444;
+}
+
+.project h1{
+    text-align: center;
+}
+
+form label{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Rubik";
+}
+
+.pj input{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px #cccccc;
+    margin: 5px 0px 30px 0px;
+    border: 0px;   
+    font-family: "Rubik";
+    font-size: 20px; 
+}
+
+.date{
+    display: flex;
+    
+}
+
+.date input{
+    color: #444444;
+}
+
+.date .kiri{
+    flex: 50%;
+    margin-right: 10px;
+}
+
+.date .kanan{
+    flex: 50%;
+    margin-left: 10px;
+}
+
+.description textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px #cccccc;
+    margin: 5px 0px 30px 0px;
+    resize: none;
+    height: 150px;
+    border: 0px;   
+    font-family: "Rubik";
+    font-size: 20px; 
+}
+
+.checkbox{
+    display: flex;
+    margin: 5px 0px 30px 0px;
+}
+
+.checkbox .kiri-cek{
+    flex: 50%;
+}
+
+.checkbox .kanan-cek{
+    flex: 50%;
+}
+
+.input{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 5px 0px 30px 0px;
+    border: 0px; 
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0px 0px 2px #cccccc;
+}
+
+.input label{
+    align-items: center;
+    background-color: #444444;
+    color: #d1d1d1;
+    padding: 0px 10px;
+    font-weight: 500;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+button{
+    font-family: rubik;
+    border: 0px;
+    background-color: #444444;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 50px;   
+    border: 1px solid #d1d1d1; 
+    margin: 0px 0px 20px 0px;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #444444;
+    border: 1px solid #444444; 
+}
+
+/* content */
+
+#content-post{
+    width: 100%;
+    margin: auto;
+    background: #d1d1d1;
+    margin-bottom: 50px;
+}
+
+#content-post a{
+    text-decoration: none;
+    color: #444444;
+}
+
+.project-post{
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.head{
+    text-align: center;
+}
+
+.head-post{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.post {
+    width : 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px #cccccc;
+    padding: 15px;
+    background-color: #f3f3f3;
+    margin: 30px 20px;
+}
+
+.post h2{
+    margin-bottom: 2px;
+}
+
+.post .duration{
+    margin-top: 0px;
+    font-size: 15px;
+    color: #444444;
+}
+
+.description p{
+    font-size: 15px;
+    font-weight: 500;
+    text-justify: auto;
+    overflow: auto;
+    height: 100px;
+}
+.post .gmbr{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.icon i{
+    width: 40px;
+}
+.upload{
+    display: flex;
+}
+
+.edit{
+    flex: 50%;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #444444;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #444444;
+}
+
+.delete{
+    flex: 50%;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #444444;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #444444;
+}
+
+.delete:hover{
+    color: #444444;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+}
+
+.edit:hover {
+    color: #444444;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+}

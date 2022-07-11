@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: "Rubik";
+    background-color: #d1d1d1;
+    color: #444444;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 10vh;
+    display: flex;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side{
+    flex: 50%;
+    padding-left: 100px;
+}
+
+nav .right-side{
+    flex: 50%;
+    padding-right: 100px;
+    justify-content: end;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    color: #444444;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+nav ul li a.active{
+    color: #444444;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    color: #f3f3f3;
+    background-color: #444444;
+
+}
+
+nav .right-side a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #444444;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 1px solid #444444;
+}
+
+nav .right-side a:hover{
+    color: #444444;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+} 
+
+/* desc */
+
+.detail-project{
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #b6b6b6;
+}
+
+.detail-project h1{
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.head{
+    display: flex;
+    margin-top: 20px;
+}
+
+.head .img{
+    flex: 70%;
+}
+
+.img img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.head .duration{
+    flex: 30%;
+}
+
+.duration ul{
+    list-style: none;
+}
+
+.duration ul li{
+    margin-bottom: 20px;
+}
+
+.duration ul li i{
+    padding-right: 10px;
+    margin: auto;
+    width: 50px;
+}
+
+.desc{
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+}
+
+.desc p{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
